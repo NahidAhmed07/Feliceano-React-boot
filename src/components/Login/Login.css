@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+.auth-home{
+  background-image:url('https://colorlib.com/etc/lf/Login_v4/images/bg-01.jpg');
+  background-position: center;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif !important;
+  color: rgba(0, 0, 0, 0.678);
+  
+}
+
+.login-container{
+  background: white;
+  text-align: left ;
+  
+  
+}
+
+.input-field:focus{
+  outline: none ;
+  box-shadow: none;
+  border-color: azure;
+}
+
+.forgot-text {
+  color: rgb(58, 58, 58);
+  cursor: pointer;
+  transition: 0.4s;
+}
+.forgot-text:hover{
+  color: rgb(37, 120, 228);
+  
+}
+
+.login-btn{
+  margin: 20px 0 ;
+  border: none;
+  width: 100%;
+  display: block;
+  padding: 10px;
+  color: white;
+  font-weight: 500;
+  border-radius: 10px;
+  background: rgb(16,205,224);
+  background: linear-gradient(111deg, rgba(16,205,224,1) 0%, rgb(58, 58, 194) 47%, rgba(237,14,253,1) 100%);
+  transition:all ease 1s ;
+}
+
+.login-btn:hover{
+   background: rgb(16,205,224);
+  background: linear-gradient(111deg, rgba(237,14,253,1) 0% , rgb(58, 58, 194) 47%,rgba(16,205,224,1) 100%);
+  transition: all ease 1s !important;
+}
+
+.toggleIcon{
+  cursor: pointer;
+}
+
+.img-icon{
+  width: 45px;
+  cursor: pointer;
+  border-radius: 100%;
+  border: 2px solid white;
+  padding: 3px;
+  transition: 0.5s;
+}
+
+.img-icon:hover{
+ /* background: rgb(139, 139, 139); */
+}
+.icon-parent{
+  display: flex;
+  justify-content: space-evenly;
+  width: 280px;
+  margin: 0 auto;
+}
+
+.signUP-btn{
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.signUP-btn:hover{
+  color: rgb(29, 115, 185);
+}

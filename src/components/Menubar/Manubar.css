@@ -1,0 +1,35 @@
+.nav-bg{
+  background: #88888800;
+}
+
+.nav-item{
+  color: white !important;
+  margin-right: 20px;
+}
+
+.nav-item:first-child{
+  color: #C8A97E !important;
+}
+
+
+.nav-btn{
+  border: none;
+  background: #C8A97E;
+  color: white;
+  padding:16px 12px;
+  border-radius: 5px;
+}
+.nav-item-parent{
+  display: flex;
+  align-items: center;
+}
+.fa-shopping-cart{
+  font-size: 25px;
+  margin-left:20px;
+  color: white !important;
+  transition: 0.5s;
+}
+
+.fa-shopping-cart:hover{
+  color: #dadada !important;
+}

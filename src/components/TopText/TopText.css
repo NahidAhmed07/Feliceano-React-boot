@@ -1,0 +1,16 @@
+
+.top-text-main{
+  background: rgba(155, 155, 155, 0.158);
+}
+
+.top-text{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-text p{
+  margin: 0;
+  padding: 10px;
+  color: rgb(214, 214, 214);
+}
